@@ -1,6 +1,9 @@
 {
   "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-      "plaintext": "pug"
+    "javascript": "javascriptreact",
+    "plaintext": "pug"
+  },
+  "files.associations": {
+    "*.js": "typescriptreact"
   }
 }
