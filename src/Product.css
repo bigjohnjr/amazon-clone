@@ -24,11 +24,21 @@
 }
 
 .product button {
-  background: #f0c14b;
+  background: linear-gradient(rgb(254, 230, 176), rgb(238, 186, 55))
+    rgb(254, 230, 176);
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111111;
+  border-radius: 3px;
+  height: 28px;
+  padding: 0 20px 0 21px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background: linear-gradient(rgb(254, 222, 151), rgb(236, 178, 31))
+    rgb(254, 222, 151);
 }
 
 .product__price {
