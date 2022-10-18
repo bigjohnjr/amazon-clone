@@ -25,7 +25,6 @@ function Payment() {
 
   useEffect(() => {
     // generate the special stripe secret which allows us to charge a customer
-
     const getClientSecret = async () => {
       const response = await axios({
         method: "post",
@@ -58,7 +57,11 @@ function Payment() {
         setError(null);
         setProcessing(false);
 
-        navigate.replace("/orders");
+        dispatch({
+          type: "EMPTY_BASKET",
+        });
+
+        navigate("/orders", { replace: true });
       });
   };
 

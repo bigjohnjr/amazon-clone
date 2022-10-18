@@ -1,16 +1,16 @@
 import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Checkout from "./Checkout";
 import Login from "./Login";
 import Payment from "./Payment";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Orders from "./Orders";
 import { useEffect } from "react";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
-import axios from "./axios";
 
 const promise = loadStripe(
   "pk_test_51LtFqMCo32YULhuMxVxlhsyqLAM9J3WHeCAyIh2C674YPlT3EdP5oQ8PcN0sx9p3tTyXtYVbPWaUGY3WrElVCi4b00If1YFQL5"
@@ -46,11 +46,11 @@ function App() {
         <div className="app">
           <Routes>
             <Route
-              path="/"
+              path="/orders"
               element={
                 <>
                   <Header />
-                  <Home />
+                  <Orders />
                 </>
               }
             />
@@ -70,6 +70,15 @@ function App() {
                 <>
                   <Header />
                   <Elements children={<Payment />} stripe={promise}></Elements>
+                </>
+              }
+            />
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header />
+                  <Home />
                 </>
               }
             />
