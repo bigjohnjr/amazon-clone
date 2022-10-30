@@ -24,21 +24,23 @@
 }
 
 .product button {
-  background: linear-gradient(rgb(254, 230, 176), rgb(238, 186, 55))
-    rgb(254, 230, 176);
+  background: #FFD814;
   border: 1px solid;
   margin-top: 10px;
-  border-color: #a88734 #9c7e31 #846a29;
+  border-color: #FCD200;
   color: #111111;
-  border-radius: 3px;
-  height: 28px;
-  padding: 0 20px 0 21px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  height: 38px;
+  padding: 3px 16px 3px 17px;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .product button:hover {
-  background: linear-gradient(rgb(254, 222, 151), rgb(236, 178, 31))
-    rgb(254, 222, 151);
+  background: #F7CA00;
+  border-color: #F2C200;
 }
 
 .product__price {

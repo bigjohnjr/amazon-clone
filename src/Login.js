@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Login.css";
 import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebase";
-import userEvent from "@testing-library/user-event";
 
 function Login() {
   const navigate = useNavigate();
@@ -26,7 +25,6 @@ function Login() {
     auth
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
-        // it successfuly created a new user with email and password
         if (auth) {
           navigate("/");
         }

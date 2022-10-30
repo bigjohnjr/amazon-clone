@@ -8,16 +8,16 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://www.howtogeek.com/wp-content/uploads/2021/05/amazon_hero_1200px.jpg"
+          src="https://m.media-amazon.com/images/I/71Xh-krld-L._SX3000_.jpg"
           alt=""
         />
 
         <div className="home__row">
           <Product
             id="132432343"
-            title="The lean startup"
-            price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            title="Deep Work: Rules for Focused Success in a Distracted World"
+            price={14.99}
+            image="https://m.media-amazon.com/images/I/41W+SUER72L._SY344_BO1,204,203,200_.jpg"
             rating={3}
           />
           <Product
