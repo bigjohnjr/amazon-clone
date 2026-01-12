@@ -22,9 +22,9 @@ function Home() {
           />
           <Product
             id="6656266"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.99}
-            image="https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T1/images/I/81BOGWDXGHL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+            title="Stand Mixer,3.2Qt Small Electric Food Mixer,6 Speeds Portable Lightweight Kitchen Mixer for Daily Use with Egg Whisk,Dough Hook,Flat Beater (Black)"
+            price={69.99}
+            image="https://m.media-amazon.com/images/I/61qfEw5vTIL._AC_UY436_FMwebp_QL65_.jpg"
             rating={4}
           />
         </div>
@@ -32,23 +32,23 @@ function Home() {
         <div className="home__row">
           <Product
             id="5454353456"
-            title="Odyssey Neo G9 G95NA Gaming Monitor, 4K UHD Mini LED Display, Curved Screen, 240Hz"
-            price={599.99}
-            image="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/81jn2-rGnMS._AC_UY218_.jpg"
+            title="Samsung 32 inch Odyssey Neo G8 (G85NB) 4K UHD 240Hz 1ms G-Sync 1000R Curved Gaming Monitor, Quantum HDR2000, AMD FreeSync Premium Pro, Matte Display, DisplayPort, Black & White, LS32BG852NNXGO"
+            price={849.99}
+            image="https://m.media-amazon.com/images/I/71iCwL1AjNL._AC_UY436_FMwebp_QL65_.jpg"
             rating={4}
           />
           <Product
             id="0098766"
-            title="Echo Dot (3rd Gen, 2018 release) - Smart speaker with Alexa - Charcoal"
-            price={39.99}
-            image="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/6182S7MYC2L._AC_UY218_.jpg"
+            title="Echo Dot (3rd Gen, 2018 relAmazon Echo Dot Max (newest model), Alexa speaker with room-filling sound and nearly 3x bass, Great for living rooms and medium-sized spaces, Includes Alexa+ Early Access, Graphiteease) - Smart speaker with Alexa - Charcoal"
+            price={99.99}
+            image="https://m.media-amazon.com/images/I/713I4BW4fBL._AC_UY436_FMwebp_QL65_.jpg"
             rating={4}
           />
           <Product
             id="45458766"
             title="2021 Apple 11-inch iPad Pro (Wi-Fi, 256GB) - Space Gray"
-            price={829.99}
-            image="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/81Y5WuARqpS._AC_UY218_.jpg"
+            price={503.05}
+            image="https://m.media-amazon.com/images/I/71GxP7vwkhL._AC_UY436_FMwebp_QL65_.jpg"
             rating={4}
           />
         </div>
@@ -56,9 +56,9 @@ function Home() {
         <div className="home__row">
           <Product
             id="9998766"
-            title="Rachael Ray Cucina Nonstick Cookware Pots and Pans Set, 12 Piece, Lavender"
-            price={169.99}
-            image="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/817kh7Q7VoL._AC_UL320_.jpg"
+            title="Rachael Ray Cucina Nonstick Cookware Pots and Pans Set, 12 Piece, Lavender Purple"
+            price={174.69}
+            image="https://m.media-amazon.com/images/I/71DKtcRP1CL._AC_UL640_FMwebp_QL65_.jpg"
             rating={5}
           />
         </div>
