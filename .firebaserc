@@ -1,5 +1,15 @@
 {
   "projects": {
-    "default": "clone-c058f"
-  }
+    "default": "amazon-ecommerce-app"
+  },
+  "targets": {
+    "clone-c058f": {
+      "hosting": {
+        "clone-site": [
+          "clone-site"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
